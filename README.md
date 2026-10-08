@@ -4,4 +4,5 @@ I am a professional with a background in the biological sciences, currently gain
 
 Module 2: Python foundations<br>
 Module 3: Data types, storage, and cleaning with pandas<br>
-Module 4: Descriptive statistics
+Module 4: Descriptive statistics<br>
+Module 5: Visualizing data in charts
