@@ -5,5 +5,6 @@ I am a professional with a background in the biological sciences, currently gain
 Module 2: Python foundations<br>
 Module 3: Data types, storage, and cleaning with pandas<br>
 Module 4: Descriptive statistics<br>
-Module 5: Visualizing data in charts
-Module 6: Hands-on exposure to SQL
+Module 5: Visualizing data in charts <br>
+Module 6: Hands-on exposure to SQL<br>
+Module 7: Machine learning and predictive models
