@@ -8,5 +8,5 @@ Module 3: Data types, storage, and cleaning with pandas<br>
 Module 4: Descriptive statistics<br>
 Module 5: Visualizing data in charts <br>
 Module 6: Hands-on exposure to SQL<br>
-Module 7: Machine learning and predictive models
+Module 7: Machine learning and predictive models <br>
 Module 8: Generative AI and verification of generated code
