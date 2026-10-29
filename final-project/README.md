@@ -80,29 +80,31 @@ Interpreting t-test results for spread1
 
 <p>As a result, I again reject the null hypothesis in favor of the alternative hypothesis: There is a significant difference in spread1 between Parkinson's patients and healthy individuals.</p>
 
-Predicting Future Parkinson's Cases
--
+Predicting future Parkinson's cases
+=
 <p>Now that there is reason to believe that there is a relationship between patient status and the two variables of PPE and spread1, it is useful to see whether either variable can be used to predict given patient's Parkinson's status.</p>
 
 <p>I will train a k-nearest neighbor (knn) model on each of the "PPE" and "spread1" columns to predict the health status of a given patient. To determine the model's accuracy, I will split the dataset into 70% training and 30% testing segments. I will train two separate models, one on each variable, train on the training segment, test on the testing segment, then score the models' accuracy in the testing segments.</p>
 
-kNN Results for PPE
+kNN results for PPE
 -
-<p>0.8813559322033898</p>
+
+- kNN score on test segment = 0.8813559322033898
 
 <p>Above, I see that the knn model I trained on the training segment of PPE values was able to accurately predict a patient's Parkinson's status for approximately 88.136% of testing rows. Next, I will create another knn model using the spread1 column.</p>
 
-kNN Results for spread1
+kNN results for spread1
 -
-<p>0.8813559322033898</p>
+
+- kNN score on test segment = 0.8813559322033898
 
 <p>The knn model trained on the spread1 training set also achieved an accuracy of 88.136% when used to predict the Parkinson's status of testing rows. The identical score seems a bit odd, so let us quickly check whether the prediction for each row was identical across the two models:</p>
 
-<p>Predictions identical: False</p>
+- Predictions identical: False
 
 <p>As odd as the coincidence may be, it appears that the two knn models did not predict the same "status" value for each row. That is, the first model may have gotten row A incorrect, while the second model predicted it correctly--but in total, both had the same ratio of successes to failures.</p>
 
-Conclusions and Caution
+Conclusions and caution
 =
 <p>Based on the two t-tests that were performed, there is most likely a strong correlation between "status" and "PPE", and between "status" and "spread1". While this can open the door for meaningful follow-up research, it must be stressed that correlation does not equal causation, so I cannot say with any certainty that Parkinson's disease causes high "PPE" values or high "spread1" values. For example, it is possible that both Parkinson's and PPE are downstream of a more fundamental, unidentified health issue, such that the two are often comorbid.</p>
 
