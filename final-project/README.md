@@ -21,8 +21,8 @@ Exploratory analysis
 
 ![Heatmap of the correlation between "status" column and other columns](images/image1.png)
 
-<p>Based on the above correlation diagram, I will examine the following two columns because they have the largest absolute r values:
-- PPE (Pitch Period Entropy): This unitless variable represents how regular the pitch period was. Put another way, it represents whether a person takes an inconsistent amount of time to produce sounds.
+<p>Based on the above correlation diagram, I will examine the following two columns because they have the largest absolute r values: <br>
+- PPE (Pitch Period Entropy): This unitless variable represents how regular the pitch period was. Put another way, it represents whether a person takes an inconsistent amount of time to produce sounds. <br>
 - spread1: This variable (no unit specified) measured variation in voice frequency. That is, it represents how much a person's voice has inconsistent pitch.</p>
 
 <p>Next, let us see an overview of how Parkinson's patients compare to healthy individuals on these two variables.</p>
