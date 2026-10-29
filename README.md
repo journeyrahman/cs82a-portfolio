@@ -7,7 +7,7 @@ I am a professional with a background in the biological sciences, currently gain
 **Tools:** Python, pandas, matplotlib, seaborn, scikit-learn, SQL, Jupyter, Google Colab
 
 ## Contents
-**Final Project:** Analyzing vocal biomarkers as a prediction of Parkinson's disease
+**Final Project:** Analyzing vocal biomarkers as a prediction of Parkinson's disease <br>
 **Module 1:** Initial familiarization with Jupyter, Python, and pandas <br>
 **Module 2:** Python foundations<br>
 **Module 3:** Data types, storage, and cleaning with pandas<br>
