@@ -66,10 +66,10 @@ spread1 t-test hypotheses and execution
 <p>The alternative hypothesis is that the mean spread1 value of Parkinson's patients is significantly higher than that of healthy individuals.</p>
 
 
-- Mean PPE value of healthy individuals: -6.759 <br>
-- Mean PPE value of Parkinson's patients: -5.333 <br>
+- Mean spread1 value of healthy individuals: -6.759 <br>
+- Mean spread1 value of Parkinson's patients: -5.333 <br>
 - Difference in mean spread1: 1.426 <br>
-- t-value: -11.634674547436209 <br>
+- t-statistic: -11.634674547436209 <br>
 - p-value: 1.769223693117403e-21</p>
 
 Interpreting t-test results for spread1
