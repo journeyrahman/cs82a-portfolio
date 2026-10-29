@@ -21,9 +21,9 @@ Exploratory analysis
 
 ![Heatmap of the correlation between "status" column and other columns](images/image1.png)
 
-<p>Based on the above correlation diagram, I will examine the following two columns because they have the largest absolute r values: <br>
-- PPE (Pitch Period Entropy): This unitless variable represents how regular the pitch period was. Put another way, it represents whether a person takes an inconsistent amount of time to produce sounds. <br>
-- spread1: This variable (no unit specified) measured variation in voice frequency. That is, it represents how much a person's voice has inconsistent pitch.</p>
+Based on the above correlation diagram, I will examine the following two columns because they have the largest absolute r values:
+- PPE (Pitch Period Entropy): This unitless variable represents how regular the pitch period was. Put another way, it represents whether a person takes an inconsistent amount of time to produce sounds.
+- spread1: This variable (no unit specified) measured variation in voice frequency. That is, it represents how much a person's voice has inconsistent pitch.
 
 <p>Next, let us see an overview of how Parkinson's patients compare to healthy individuals on these two variables.</p>
 
@@ -41,23 +41,18 @@ Comparative analysis
 =
 <p>I will perform a t-test for each variable to determine whether the difference between healthy individuals and Parkinson's patients is statistically significant.</p>
 
-PPE t-Test
+PPE t-test hypotheses and execution
 -
 <p>The null hypothesis is that there is no significant difference in PPE between the two groups. </p>
 <p>The alternative hypothesis is that the mean PPE of Parkinson's patients is significantly higher than that of healthy individuals.</p>
 
-spread1 t-Test
--
-<p>The null hypothesis is that there is no significant difference in spread1 values between the two groups. </p>
-<p>The alternative hypothesis is that the mean spread1 value of Parkinson's patients is significantly higher than that of healthy individuals.</p>
+- Mean PPE value of healthy individuals: 0.123 <br>
+- Mean PPE value of Parkinson's patients: 0.234 <br>
+- Difference in mean PPE: 0.111 <br>
+- t-statistic: -11.670090179718107 <br>
+- p-value: 6.764318285836851e-23</p>
 
-<p>Mean PPE value of healthy individuals: 0.123 <br>
-Mean PPE value of Parkinson's patients: 0.234 <br>
-Difference in mean PPE: 0.111 <br>
-t-statistic: -11.670090179718107 <br>
-p-value: 6.764318285836851e-23</p>
-
-Interpreting t-Test Results for PPE
+Interpreting t-test results for PPE
 -
 <p>The absolute value of the t-statistic, which compares the difference in means to the standard error, was very high, meaning that the difference in means far outstrips the amount of noise in the data. The p-value, which is the probability that a t-statistic this extreme would be the result of random chance, is very very low.</p>
     
@@ -65,13 +60,19 @@ Interpreting t-Test Results for PPE
 
 <p>For this reason, I reject the null hypothesis in favor of the alternative hypothesis: There is a significant difference in PPE between Parkinson's patients and healthy individuals.</p>
 
-<p>Mean PPE value of healthy individuals: -6.759 <br>
-Mean PPE value of Parkinson's patients: -5.333 <br>
-Difference in mean spread1: 1.426 <br>
-t-value: -11.634674547436209 <br>
-p-value: 1.769223693117403e-21</p>
+spread1 t-test hypotheses and execution
+-
+<p>The null hypothesis is that there is no significant difference in spread1 values between the two groups. </p>
+<p>The alternative hypothesis is that the mean spread1 value of Parkinson's patients is significantly higher than that of healthy individuals.</p>
 
-Interpreting t-Test Results for spread1
+
+- Mean PPE value of healthy individuals: -6.759 <br>
+- Mean PPE value of Parkinson's patients: -5.333 <br>
+- Difference in mean spread1: 1.426 <br>
+- t-value: -11.634674547436209 <br>
+- p-value: 1.769223693117403e-21</p>
+
+Interpreting t-test results for spread1
 -
 <p>Bearing in mind the definitions of the t-statistic and p-value described in the previous test, I see that the absolute value of the t-statistic is again very high and the p-value is again extremely low.</p>
 
