@@ -18,6 +18,7 @@ Exploratory analysis
 =
 <p>The newly cleaned dataset should now function in terms of splitting the rows into two groups: Healthy individuals versus those with Parkinson's. I will take a look at the mean and median of the two groups, then see which columns correlate most strongly with patient status.</p>
 <p>To address the stated research question, I will compare the rows with "status"=1 (Parkinson's patients) against rows with "status"=0 (healthy individuals). For that reason, I want to see which columns correlate most strongly with the "status" column.</p>
+
 ![Heatmap of the correlation between "status" column and other columns](images/image1.png)
 
 <p>Based on the above correlation diagram, I will examine the following two columns because they have the largest absolute r values:
