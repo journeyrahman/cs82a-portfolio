@@ -26,6 +26,7 @@ Exploratory analysis
 - spread1: This variable (no unit specified) measured variation in voice frequency. That is, it represents how much a person's voice has inconsistent pitch.</p>
 
 <p>Next, let us see an overview of how Parkinson's patients compare to healthy individuals on these two variables.</p>
+
 ![Barplot of average PPE values for healthy individuals vs. Parkinson's patients](images/image2.png) <br>
 ![Barplot of average spread1 values for healthy individuals vs. Parkinson's patients](images/image3.png)
 
